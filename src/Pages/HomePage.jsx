@@ -2,6 +2,8 @@ import React from 'react'
 import HeroComponent from '../Components/HeroComponent'
 import EvenementsComponent from '../Components/EvenementsComponent'
 import RealisationClientsComponent from '../Components/RealisationClientsComponent'
+import AboutUsComponent from '../Components/AboutUsComponent'
+import ContactComponent from '../Components/ContactComponent'
 
 function HomePage() {
     return <>
@@ -11,6 +13,8 @@ function HomePage() {
                 <HeroComponent/>
                 <EvenementsComponent/>
                 <RealisationClientsComponent/>
+                <AboutUsComponent/>
+                <ContactComponent/>
             </main>
         </body>
     </>

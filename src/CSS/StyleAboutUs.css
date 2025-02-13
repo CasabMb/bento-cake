@@ -1,0 +1,35 @@
+.about_us_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--box_background);
+    margin-bottom: 50px;
+    padding: 50px 0;
+    border-radius: 12px;
+}
+.about_us_content h4{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.about_us_content p{
+    width: 80%;
+}
+.about_us_content p:last-child{
+    text-align: center;
+    margin-top: 10px;
+    font-size: large;
+}
+.about_us_content p:nth-child(2){
+    text-align: center;
+}
+
+
+@media (max-width: 950px){
+
+}
+@media (max-width: 570px){
+    #about_us{
+        margin-top: 60px;
+    }
+}

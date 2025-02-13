@@ -16,19 +16,20 @@
     align-items: center;
 }
 .nav_barre nav ul{
-    color: #e08d9f;
     list-style: none;
     display: flex;
     flex-direction: row;
     font-family: callingstone;
     gap: 5%;
     justify-content: center;
-    transform: translateY(30%);
+    transform: translateY(60%);
 }
-.nav_barre li{
+.nav_barre a{
+    color: #e08d9f;
     padding: 3px;
+    text-decoration: none;
 }
-.nav_barre li:hover{
+.nav_barre a:hover{
     background-color: #e08d9f8c;
     color: rgb(250, 250, 242);
     border-radius: 5px;    

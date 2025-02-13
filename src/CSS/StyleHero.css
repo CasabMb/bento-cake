@@ -136,11 +136,17 @@
 .card .content .title a:hover{
     box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.454);
 }
+.content-p-2{
+    display: none;
+}
 .content p {
-    padding: 10px 5px 5px 5px;
-    width: 90%;
     font-family: callingstone;
     text-align: center;
+}
+.content-p{
+    padding: 10px 5px 5px 5px;
+    width: 90%;
+    margin: auto;
 }
 
 
@@ -171,11 +177,8 @@
 @media (min-width: 1370px){
     .card .imgBox::before{
         left: 34.5%;
-
     }
 }
-
-
 
 @media (min-width: 950px) and (max-width: 1150px) {
     
@@ -188,7 +191,6 @@
     .card .content p{
         font-size: 14px;
     }
-
     .imgBox img{
         top: 25%;
         left: 60%;
@@ -196,7 +198,7 @@
         height: 180px;
     }
     .card h1{
-        top: 50%;
+        top: 40%;
         left: 2%;
         font-size: 3em;
         width: 70%;
@@ -204,27 +206,26 @@
     }
     .card .imgBox p{
         top: 65%;
-        left: 35%;
+        left: 37%;
         width: 40%;
         font-size: 1em;
         padding: 10px 5px;
     }
     .content p {
-    padding: 5px;
+    padding: 5px ;
     width: 90%;
     }
-    
 }
+
 @media (max-width: 800px){
     
 }
+
 @media (max-width: 770px){
     .card .content .title a{
         left: 0%;
         font-size: 14px;
     }
-    
-
 }
 
 @media (max-width: 570px){
@@ -234,7 +235,6 @@
         padding: 5px ;
         font-size: 13px;
     }
-
     .imgBox img{
         top: 25%;
         left: 55%;
@@ -242,13 +242,13 @@
         height: 170px;
     }
     .card h1{
-        top: 40%;
+        top: 35%;
         left: 2%;
         font-size: 2.8em;
         width: 70%;
     }
     .card .imgBox p{
-        top: 65%;
+        top: 70%;
         left: 36%;
         width: 60%;
         font-size: 1em;
@@ -259,11 +259,6 @@
         height: auto;
         margin: auto;
         overflow: hidden;
-
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 8;
-        line-height: 1.1;
     }
 }
 
@@ -276,11 +271,10 @@
         height: 160px;
     }
     .card h1{
-        top: 30%;
+        top: 25%;
         left: 2%;
-        font-size: 3em;
+        font-size: 2.7em;
         width: 70%;
-
     }
     .card .imgBox p{
         top: 62%;
@@ -294,24 +288,30 @@
         height: auto;
         margin: auto;
         overflow: hidden;
-
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 8;
-        line-height: 1.1;
+    }
+    .content-p{
+        display: none !important;;
+    }
+    .content-p-2{
+        display: block;
+        transform: translateY(150%);
     }
     .card .content .title a{
-        left: -4%;   
+        left: 20%;  
+        top: 100%; 
+        width: 150%;
+        z-index: 2;
+        padding: 15px 20px;
     }
-    
 }
-@media (max-width: 350px){
 
+@media (max-width: 350px){
     .card .imgBox p{
-        top: 55%;
+        top: 57%;
         left: 37%;
     }
     .imgBox img{
+        top: 25%;
         left: 50%;
         width: 140px;
         height: 140px;
@@ -319,13 +319,15 @@
     .card h1{
         top: 30%;
         left: 2%;
-        font-size: 2.2em;
+        font-size: 2em;
         width: 70%;
     }
-    .content p{
-        -webkit-line-clamp: 7;
-        padding-top: 15px;
+    .card .content .title a{ 
+        width: 150%;
+        z-index: 2;
     }
-    
-
+    .content-p-2{
+        display: block;
+        transform: translateY(160%);
+    }
 }

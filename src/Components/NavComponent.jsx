@@ -11,9 +11,9 @@ function NavComponent() {
             </div>
             <nav>
                 <ul>
-                    <li>Atelier</li>
-                    <li>About us</li>
-                    <li>Contact</li>
+                    <li><a href="#ateliers"> Atelier</a></li>
+                    <li><a href='#about_us'>About us</a></li>
+                    <li><a href='#contact'>Contact</a></li>
                 </ul>
             </nav>
         </div>
