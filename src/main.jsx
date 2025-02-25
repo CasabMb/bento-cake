@@ -6,19 +6,22 @@ import NavComponent from './Components/NavComponent.jsx';
 import './App.css';
 import FooterComponent from './Components/FooterComponent.jsx';
 import ScrollToTopButton from './Components/ScrollToTopButton.jsx';
+import { HelmetProvider } from 'react-helmet-async';
 
 createRoot(document.getElementById('root')).render(
   
   <StrictMode>
-    <BrowserRouter  basename="/bento-cake">
-      <NavComponent/>
-      <Routes>
-        <Route>
-          <Route path="/" element={<HomePage />} />
-        </Route>
-      </Routes>
-      <FooterComponent/>
-      <ScrollToTopButton/>
-    </BrowserRouter>
+    <HelmetProvider>
+      <BrowserRouter  basename="/bento-cake">
+        <NavComponent/>
+        <Routes>
+          <Route>
+            <Route path="/" element={<HomePage />} />
+          </Route>
+        </Routes>
+        <FooterComponent/>
+        <ScrollToTopButton/>
+      </BrowserRouter>
+    </HelmetProvider>
   </StrictMode>,
 )

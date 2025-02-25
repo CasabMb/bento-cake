@@ -1,15 +1,8 @@
-@font-face {
-	font-family: 'callingstone';
-	src: url('../src/assets/fonts/Callingstone.ttf') format('truetype');
-}
-@font-face {
-	font-family: 'lovan';
-	src: url('../src/assets/fonts/Lovan.ttf') format('truetype');
-}
 .bento-box{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .card{
     position: relative;
@@ -23,10 +16,10 @@
 .card h1{
     position: absolute;
     top: 40%;
-    left: 2%;
+    left: 3%;
     font-size: 5em;
     color: var(--text_color_1);
-    font-family: lovan;
+    font-family: Lovan;
     font-weight: lighter;
     z-index: 2;
 }
@@ -35,11 +28,9 @@
     top: 65%;
     left: 35%;
     width: 40%;
-    font-size: 1.1em;
     color: var(--text_color_1);
     font-weight: 100;
     z-index: 2;
-    font-family: callingstone;
     backdrop-filter: blur(20px);
     background-image: linear-gradient(120deg, rgba(224, 141, 159, 0.2), rgba(250, 250, 242, 0.2));
     padding: 15px 0;
@@ -130,8 +121,9 @@
     display: block;
     border-radius: 7px;
     text-decoration: none;
-    font-size: 1.5em;
-
+    font-family: Callingstone;
+    font-weight: bold;
+    cursor: pointer;
 }
 .card .content .title a:hover{
     box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.454);
@@ -140,7 +132,6 @@
     display: none;
 }
 .content p {
-    font-family: callingstone;
     text-align: center;
 }
 .content-p{
@@ -148,8 +139,6 @@
     width: 90%;
     margin: auto;
 }
-
-
 .card .box-3{
     position: relative;
     width: 31%;
@@ -167,29 +156,14 @@
 
 
 
-
-
-
-
-
-
-
 @media (min-width: 1370px){
     .card .imgBox::before{
         left: 34.5%;
     }
 }
-
-@media (min-width: 950px) and (max-width: 1150px) {
-    
-}
-
 @media (max-width: 950px){
-    .box-3 p , 
-    .box-3 button, 
-    .card .content .title a,
-    .card .content p{
-        font-size: 14px;
+    .card .content .title a{
+        font-size: small;
     }
     .imgBox img{
         top: 25%;
@@ -199,16 +173,13 @@
     }
     .card h1{
         top: 40%;
-        left: 2%;
-        font-size: 3em;
         width: 70%;
-
+        font-size: 3.7em;
     }
     .card .imgBox p{
         top: 65%;
         left: 37%;
         width: 40%;
-        font-size: 1em;
         padding: 10px 5px;
     }
     .content p {
@@ -216,24 +187,19 @@
     width: 90%;
     }
 }
-
-@media (max-width: 800px){
-    
-}
-
 @media (max-width: 770px){
     .card .content .title a{
         left: 0%;
-        font-size: 14px;
+    }
+    .card .imgBox p{
+        top: 60%;
     }
 }
-
 @media (max-width: 570px){
     .card .content .title a{
         left: -2%;
         width: 80%;
         padding: 5px ;
-        font-size: 13px;
     }
     .imgBox img{
         top: 25%;
@@ -243,15 +209,11 @@
     }
     .card h1{
         top: 35%;
-        left: 2%;
-        font-size: 2.8em;
-        width: 70%;
     }
     .card .imgBox p{
         top: 70%;
         left: 36%;
         width: 60%;
-        font-size: 1em;
         padding: 10px 5px;
     }
     .content p{
@@ -261,7 +223,6 @@
         overflow: hidden;
     }
 }
-
 @media (max-width: 440px){
 
     .imgBox img{
@@ -272,62 +233,48 @@
     }
     .card h1{
         top: 25%;
-        left: 2%;
-        font-size: 2.7em;
-        width: 70%;
+        font-size: 3em;
     }
     .card .imgBox p{
-        top: 62%;
+        top: 60%;
         left: 38%;
-        width: 60%;
-        font-size: 1em;
-        padding:  5px;
-    }
-    .content p{
-        width: 95%;
-        height: auto;
-        margin: auto;
-        overflow: hidden;
+        width: 58%;
+        padding: 5px;
     }
     .content-p{
         display: none !important;;
     }
     .content-p-2{
         display: block;
-        transform: translateY(150%);
+        transform: translateY(110%);
     }
     .card .content .title a{
         left: 20%;  
         top: 100%; 
         width: 150%;
         z-index: 2;
-        padding: 15px 20px;
+        padding: 10px;
     }
 }
 
 @media (max-width: 350px){
     .card .imgBox p{
-        top: 57%;
+        top: 54%;
         left: 37%;
     }
     .imgBox img{
         top: 25%;
-        left: 50%;
         width: 140px;
         height: 140px;
     }
     .card h1{
-        top: 30%;
-        left: 2%;
-        font-size: 2em;
-        width: 70%;
+        top: 27%;
+        font-size: 2.5em;
     }
     .card .content .title a{ 
-        width: 150%;
-        z-index: 2;
+        padding: 5px;
     }
     .content-p-2{
-        display: block;
-        transform: translateY(160%);
+        transform: translateY(70%);
     }
 }

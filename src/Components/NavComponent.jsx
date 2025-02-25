@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from '../assets/images/logosb.webp';
+import logo from '../assets/images/logo-cake.jpg';
 import '../CSS/StyleNavBarre.css';
-
 
 function NavComponent() {
     return <>

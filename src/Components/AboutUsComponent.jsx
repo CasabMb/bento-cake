@@ -1,5 +1,5 @@
 import React from 'react';
-import '../CSS/StyleAboutUs.css'
+import '../CSS/StyleAboutUs.css';
 
 function AboutUsComponent() {
     return <>
@@ -18,7 +18,6 @@ function AboutUsComponent() {
             </div>
         </section>
     </>
-
 }
 
 export default AboutUsComponent

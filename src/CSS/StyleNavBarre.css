@@ -1,6 +1,7 @@
 .img_logo{
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
 }
 .img_logo img{
     object-fit: contain;
@@ -19,7 +20,9 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    font-family: callingstone;
+    font-family: Lovan;
+    font-size: large;
+    font-weight: bold;
     gap: 5%;
     justify-content: center;
     transform: translateY(60%);
@@ -54,6 +57,10 @@
 @media (max-width: 440px) {
     .nav_barre nav{
         width: 260px;
+    }
+    .img_logo{
+        width: 70px;
+        height: 70px;
     }
 }
 @media (max-width: 350px) {

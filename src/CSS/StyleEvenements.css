@@ -1,5 +1,9 @@
 .evenements{
-    margin-top: 80px;
+    margin-top: 120px;
+}
+.evenements h3{
+    font-size: x-large;
+    font-weight: bold;
 }
 .evenements_boxs{
     position: relative;
@@ -14,13 +18,14 @@
 }
 .box_evjf{
     position: relative;
-    top: 0;
+    top: 20px;
     left: 12%;
     width: 200px;
-    height: 200px;
+    height: 210px;
     border: 1px solid var(--box_background);
     border-radius: 5px;
     padding: 10px;
+    background-color: #f8e7ed41;
 }
 .box_evjf::after{
     content: '';
@@ -35,13 +40,14 @@
 }
 .box_classique{
     position: relative;
-    top: -50%;
+    top: -55%;
     left: 12%;
     width: 200px;
     height: 200px;
     border: 1px solid var(--box_background);
     border-radius: 5px;
     padding: 10px;
+    background-color: #f8e7ed41;
 }
 .box_classique::after{
     content: '';
@@ -65,7 +71,7 @@
     padding: 10px;
     border-radius: 10px;
 }
-.box_entre_fille{
+.box_entre_amies{
     position: relative;
     top: -39.5%;
     left: 71%;
@@ -74,8 +80,9 @@
     border: 1px solid var(--box_background);
     border-radius: 5px;
     padding: 10px;
+    background-color: #f8e7ed41;
 }
-.box_entre_fille::before{
+.box_entre_amies::before{
     content: '';
     position: absolute;
     bottom: 0;
@@ -86,17 +93,18 @@
     width: 230px;
     height: 80px;
 }
-.box_plus{
+.box_prestige{
     position: relative;
-    top: -80%;
+    top: -100%;
     left: 71%;
     width: 200px;
     height: 200px;
     border: 1px solid var(--box_background);
     border-radius: 5px;
     padding: 10px;
+    background-color: #f8e7ed41;
 }
-.box_plus::before{
+.box_prestige::before{
     content: '';
     position: absolute;
     bottom: 80px;
@@ -105,7 +113,7 @@
     border-left: 1px solid var(--box_background);
     border-bottom-left-radius: 25px;
     width: 200px;
-    height: 50px;
+    height: 60px;
 }
 .evenements button{
     margin-top: 5px ;
@@ -114,26 +122,27 @@
     border: none;
     border-radius: 5px;
     padding: 5px;
+    font-family: Callingstone;
+    font-weight: bold;
+	font-size: small;
+    cursor: pointer;
 }
 .evenements button:hover{
     box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.454);
 }
-.box_plus, .box_classique, .box_entre_fille, .box_evjf{
+.box_prestige, .box_classique, .box_entre_amies, .box_evjf{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 
-@media (min-width: 1370px){
-    
-}
 
 @media (min-width: 950px) and (max-width: 1150px) {
     .box_evjf::after,
     .box_classique::after,
-    .box_entre_fille::before,
-    .box_plus::before {
+    .box_entre_amies::before,
+    .box_prestige::before {
         width: 80%;
     }    
 }
@@ -141,8 +150,8 @@
 @media (max-width: 950px){
     .box_evjf::after,
     .box_classique::after,
-    .box_entre_fille::before,
-    .box_plus::before {
+    .box_entre_amies::before,
+    .box_prestige::before {
         width: 60%;
     }
     .box_classique, .box_evjf{
@@ -155,23 +164,23 @@
 @media (max-width: 800px){
     .box_evjf::after,
     .box_classique::after,
-    .box_entre_fille::before,
-    .box_plus::before {
+    .box_entre_amies::before,
+    .box_prestige::before {
         width: 50%;
     }
 }
 @media (max-width: 770px){
     .box_evjf::after,
     .box_classique::after,
-    .box_entre_fille::before,
-    .box_plus::before {
+    .box_entre_amies::before,
+    .box_prestige::before {
         width: 37%;
     }
 }
 
 @media (max-width: 570px) {
-    .box_entre_fille::before,
-    .box_plus::before,
+    .box_entre_amies::before,
+    .box_prestige::before,
     .box_evjf::after,
     .box_classique::after {
         display: none;
@@ -179,8 +188,8 @@
     .box_evjf, 
     .box_classique, 
     .box_description, 
-    .box_entre_fille, 
-    .box_plus {
+    .box_entre_amies, 
+    .box_prestige {
         position: static;
     }
     .evenements_boxs {
@@ -194,8 +203,8 @@
     .box_evjf, 
     .box_classique, 
     .box_description, 
-    .box_entre_fille, 
-    .box_plus {
+    .box_entre_amies, 
+    .box_prestige {
         width: 90%;
         height: auto;
         max-width: 300px;
@@ -204,18 +213,9 @@
         order: -1; 
     }
     .evenements{
-        margin-top: 0px;
+        margin-top: 30px;
     }
     .evenements button{
         padding: 10px 5px;
     }
-}
-
-
-@media (max-width: 440px){
-
-    
-}
-@media (max-width: 350px){
-
 }

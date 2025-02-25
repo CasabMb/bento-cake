@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/bento-cake/',
   plugins: [react()],
+  server: {
+    allowedHosts: ['.ngrok-free.app'] 
+  }
 })

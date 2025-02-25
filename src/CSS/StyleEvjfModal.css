@@ -1,0 +1,96 @@
+.evjf-page{
+    margin: 70px 0 30px 0;
+}
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    color: var(--text_color_2);
+}
+.evjf-modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-height: 90vh; 
+    overflow-y: auto; 
+    margin-bottom: 6%;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.466);
+}
+.evjf-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: var(--text_color_2);
+}
+.evjf-page h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.intro {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.section {
+    background: #fff5f8;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.section h2 {
+    color: var(--text_color_2);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.evjf-page ul {
+    list-style-type: none;
+    padding: 0;
+}
+.evjf-page ul li {
+    margin: 10px 0;
+}
+.reservation {
+    background: #ffe3eb;
+    padding: 20px;
+    border-radius: 10px;
+}
+.reservation h2{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.evjf-page span{
+    font-weight: bold;
+}
+.reservation a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--text_color_2);
+}
+.reservation a:hover{
+    color: #b34a6b;
+}
+.evjf-page button{
+    background-color: #fff5f8;
+    border: 1px solid var(--box_background);
+    color: var(--text_color_2);
+    margin-top: 30px;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.evjf-page button:hover{
+    border: none;
+    background-color: var(--box_background);
+    color: var(--text_color_1);
+}

@@ -10,15 +10,15 @@ function FooterComponent() {
             <div>
                 <p>LOGO</p>
             </div>
-            <div class="footer-divider"></div>
-            <div class="mentions-legales">
+            <div className="footer-divider"></div>
+            <div className="mentions-legales">
                 <p>Conditions de Vente (CGV)</p>
                 <p>Charte de protection des données</p>
                 <p>Mentions légales</p>
                 <p>Politique relative aux cookies</p>
             </div>
-            <div class="footer-divider"></div>
-            <div class="reseaux" data-aos="fade-right" data-aos-duration="900" data-aos-offset="100" data-aos-easing="ease-in-sine">
+            <div className="footer-divider"></div>
+            <div className="reseaux" data-aos="fade-right" data-aos-duration="900" data-aos-offset="100" data-aos-easing="ease-in-sine">
                 <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
                     <img src={instagram} alt="logo instagram" />
                 </a>
