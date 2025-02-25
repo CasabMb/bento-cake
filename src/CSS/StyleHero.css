@@ -226,27 +226,24 @@
 @media (max-width: 440px){
 
     .imgBox img{
-        top: 30%;
-        left: 50%;
-        width: 160px;
-        height: 160px;
+        top: 37%;
+        left: 45%;
+        width: 180px;
+        height: 180px;
     }
     .card h1{
         top: 25%;
         font-size: 3em;
     }
     .card .imgBox p{
-        top: 60%;
-        left: 38%;
-        width: 58%;
-        padding: 5px;
+        display: none;
     }
     .content-p{
         display: none !important;;
     }
     .content-p-2{
         display: block;
-        transform: translateY(110%);
+        transform: translateY(100%);
     }
     .card .content .title a{
         left: 20%;  
@@ -263,9 +260,7 @@
         left: 37%;
     }
     .imgBox img{
-        top: 25%;
-        width: 140px;
-        height: 140px;
+        left: 40%;
     }
     .card h1{
         top: 27%;
@@ -275,6 +270,6 @@
         padding: 5px;
     }
     .content-p-2{
-        transform: translateY(70%);
+        transform: translateY(50%);
     }
 }

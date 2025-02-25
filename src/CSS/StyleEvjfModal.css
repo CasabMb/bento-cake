@@ -27,7 +27,7 @@
 .evjf-container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
     color: var(--text_color_2);
 }
