@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../CSS/StyleEvenements.css'
 import EvjfModal from './Modal/EvjfModal';
+import EntreAmisModal from './Modal/EntreAmisModal';
 
 function EvenementsComponent() {
 
@@ -21,10 +22,10 @@ function EvenementsComponent() {
                     <p>Organisez un enterrement de vie de jeune fille inoubliable avec un atelier gourmand autour des bento cakes.</p>
                     <button onClick={() => openModal('evjf')}>En savoir plus</button>                
                 </div>
-                <div className='box_entre_amies' data-aos="zoom-in-left" data-aos-duration="1400">
-                    <h3>Entre Amies</h3>
+                <div className='box_entre_amis' data-aos="zoom-in-left" data-aos-duration="1400">
+                    <h3>Entre Amis</h3>
                     <p>Partagez un moment complice entre amies en décorant vos propres bento cakes.</p>
-                    <button onClick={() => openModal('entre_amies')}>En savoir plus</button>
+                    <button onClick={() => openModal('entre_amis')}>En savoir plus</button>
                 </div>
                 <div className='box_description'>
                     <h2>Nous vous proposons plusieurs possibilités de réservations</h2>
@@ -43,6 +44,7 @@ function EvenementsComponent() {
             </div>
         </section>
             {modalOpen === 'evjf' && <EvjfModal isOpen={true} toggleModal={closeModal} />}
+            {modalOpen === 'entre_amis' && <EntreAmisModal isOpen={true} toggleModal={closeModal} />}
     </>
 }
 

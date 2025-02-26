@@ -5,15 +5,15 @@ function EvjfModal({ isOpen, toggleModal }) {
     if (!isOpen) return null
     return <>
         <section className='modal-overlay'>
-            <div className='evjf-page evjf-modal-content'>
+            <div className='evjf-page evjf-modal-content' onClick={(e) => e.stopPropagation()}>
                 <div className="evjf-container">
-                    <h1>Organisez un EVJF inoubliable ! 🎉</h1>
+                    <h2>Organisez un EVJF inoubliable ! 🎉</h2>
                     <p className="intro">
                         Faites de cet enterrement de vie de jeune fille un moment unique et gourmand en partageant un <span>atelier bento cake</span> créatif et savoureux ! 🍰✨
                     </p>
         
                     <div className="section">
-                        <h2>Déroulement de l'atelier</h2>
+                        <h3>Déroulement de l'atelier</h3>
                         <p>
                             Lors de cet atelier, vous apprendrez à réaliser de magnifiques <span>bento cakes personnalisés</span>.  
                             Un moment de partage et de fun où chaque participante pourra <span>laisser libre cours à sa créativité</span> !
@@ -27,15 +27,15 @@ function EvjfModal({ isOpen, toggleModal }) {
                     </div>
         
                     <div className="section">
-                        <h2>Détails pratiques</h2>
+                        <h3>Détails pratiques</h3>
                         <p><span>📅 Durée :</span> Environ 2h30</p>
                         <p><span>📍 Lieu :</span> En atelier privé</p>
-                        <p><span>👩‍🍳 Nombre de participantes :</span> De 4 à 10 personnes</p>
-                        <p><span>💰 Tarif :</span> À partir de 35€ par personne</p>
+                        <p><span>👩‍🍳 Nombre de participantes :</span> De 2 à 10 personnes</p>
+                        <p><span>💰 Tarif :</span> À partir de 45€ par personne</p>
                     </div>
         
                     <div className="reservation">
-                        <h2>Réservez votre atelier EVJF</h2>
+                        <h3>Réservez votre atelier EVJF</h3>
                         <p>Pour plus d'informations ou pour réserver, contactez-nous :</p>
                         <p><span>📧 Email :</span> <a href="mailto:contact@bentocake-event.com">contact@bentocake-event.com</a></p>
                         <p><span>📞 Téléphone :</span> <a href="tel:+33612345678">06 12 34 56 78</a></p>

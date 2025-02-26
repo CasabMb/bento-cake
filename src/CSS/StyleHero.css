@@ -156,11 +156,7 @@
 
 
 
-@media (min-width: 1370px){
-    .card .imgBox::before{
-        left: 34.5%;
-    }
-}
+
 @media (max-width: 950px){
     .card .content .title a{
         font-size: small;
@@ -215,12 +211,19 @@
         left: 36%;
         width: 60%;
         padding: 10px 5px;
+        font-size: 15px;
     }
     .content p{
         width: 95%;
         height: auto;
         margin: auto;
         overflow: hidden;
+        font-size: 15px;
+    }
+}
+@media (min-width: 440px){
+    .card .imgBox p{
+        font-size: 14px;
     }
 }
 @media (max-width: 440px){

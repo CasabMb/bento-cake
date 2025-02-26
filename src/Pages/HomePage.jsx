@@ -5,6 +5,7 @@ import RealisationClientsComponent from '../Components/RealisationClientsCompone
 import AboutUsComponent from '../Components/AboutUsComponent'
 import ContactComponent from '../Components/ContactComponent'
 import { Helmet } from 'react-helmet-async';
+import '../CSS/HomePage.css';
 
 
 function HomePage() {
@@ -37,7 +38,7 @@ function HomePage() {
             <meta name="twitter:image" content="https://50a4-2a01-e0a-159-9300-3de2-acc2-b17f-c10.ngrok-free.app/bento-cake/images/La-Dolce-Bento-cake.png
             " />    
         </Helmet>
-        <main>
+        <main className='home-p-main'>
             <HeroComponent/>
             <EvenementsComponent/>
             <RealisationClientsComponent/>

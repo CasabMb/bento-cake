@@ -23,7 +23,7 @@ function HeroComponent() {
                     <span className='title'>
                         <a onClick={toggleModal}> Bento Cake lover</a>
                     </span>
-                    <p className='content-p'>Découvrez les compositions au choix pour vos futurs gâteaux : des bases moelleuses de génoise à la vanille ou au chocolat, garnies de mousses légères aux fruits, au chocolat et autres. Vous pourrez également rajouter des fruit pour plus de gourmandises. Ajoutez votre touche finale avec des décorations personnalisées pour des créations gourmandes et élégantes.</p>
+                    <p className='content-p'>Découvrez les compositions pour vos futurs gâteaux : des bases moelleuses de génoise, garnies de mousses légères aux fruits, au chocolat et autres. Ajoutez votre touche finale avec des décorations personnalisées pour plus de fun.</p>
                     <p className='content-p-2'>Découvrez les compositions au choix pour vos futurs gâteaux</p>
                 </div>
                 <div className='box-3' data-aos="fade-left" data-aos-duration="1400">

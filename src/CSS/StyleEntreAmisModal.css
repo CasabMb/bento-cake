@@ -1,0 +1,38 @@
+.entre-amis-container h2{
+    text-align: center;
+}
+.modal-box, .modal-infos {
+    background-color: var(--box_background);
+    color: var(--text_color_1);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    max-width: 800px;
+    width: 100%;
+}
+.entre-amis .reservation{
+    margin-top: 15px;
+    background: #fff9f9;
+    border: 4px solid var(--box_background);
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--text_color_2);
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+.entre-amis .reservation h3{
+    color: var(--text_color_2);
+}
+.modal-boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-boxes h3{
+    color: var(--text_color_1);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: x-large;
+}

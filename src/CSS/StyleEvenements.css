@@ -30,13 +30,13 @@
 .box_evjf::after{
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: -30px;
     left: 100%;
     border-top: 1px solid var(--box_background);
     border-right: 1px solid var(--box_background);
     border-top-right-radius: 25px;
     width: 200px;
-    height: 60px;
+    height: 100px;
 }
 .box_classique{
     position: relative;
@@ -58,7 +58,7 @@
     border-right: 1px solid var(--box_background);
     border-bottom-right-radius: 25px;
     width: 230px;
-    height: 80px;
+    height: 160px;
 }
 .box_description{
     position: relative;
@@ -71,7 +71,7 @@
     padding: 10px;
     border-radius: 10px;
 }
-.box_entre_amies{
+.box_entre_amis{
     position: relative;
     top: -39.5%;
     left: 71%;
@@ -82,16 +82,16 @@
     padding: 10px;
     background-color: #f8e7ed41;
 }
-.box_entre_amies::before{
+.box_entre_amis::before{
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: -30px;
     right: 100%;
     border-top: 1px solid var(--box_background);
     border-left: 1px solid var(--box_background);
     border-top-left-radius: 25px;
     width: 230px;
-    height: 80px;
+    height: 130px;
 }
 .box_prestige{
     position: relative;
@@ -107,13 +107,13 @@
 .box_prestige::before{
     content: '';
     position: absolute;
-    bottom: 80px;
+    bottom: 45px;
     right: 100%;
     border-bottom: 1px solid var(--box_background);
     border-left: 1px solid var(--box_background);
     border-bottom-left-radius: 25px;
     width: 200px;
-    height: 60px;
+    height: 120px;
 }
 .evenements button{
     margin-top: 5px ;
@@ -130,7 +130,7 @@
 .evenements button:hover{
     box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.454);
 }
-.box_prestige, .box_classique, .box_entre_amies, .box_evjf{
+.box_prestige, .box_classique, .box_entre_amis, .box_evjf{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,7 +141,7 @@
 @media (min-width: 950px) and (max-width: 1150px) {
     .box_evjf::after,
     .box_classique::after,
-    .box_entre_amies::before,
+    .box_entre_amis::before,
     .box_prestige::before {
         width: 80%;
     }    
@@ -150,7 +150,7 @@
 @media (max-width: 950px){
     .box_evjf::after,
     .box_classique::after,
-    .box_entre_amies::before,
+    .box_entre_amis::before,
     .box_prestige::before {
         width: 60%;
     }
@@ -164,7 +164,7 @@
 @media (max-width: 800px){
     .box_evjf::after,
     .box_classique::after,
-    .box_entre_amies::before,
+    .box_entre_amis::before,
     .box_prestige::before {
         width: 50%;
     }
@@ -172,14 +172,14 @@
 @media (max-width: 770px){
     .box_evjf::after,
     .box_classique::after,
-    .box_entre_amies::before,
+    .box_entre_amis::before,
     .box_prestige::before {
         width: 37%;
     }
 }
 
 @media (max-width: 570px) {
-    .box_entre_amies::before,
+    .box_entre_amis::before,
     .box_prestige::before,
     .box_evjf::after,
     .box_classique::after {
@@ -188,7 +188,7 @@
     .box_evjf, 
     .box_classique, 
     .box_description, 
-    .box_entre_amies, 
+    .box_entre_amis, 
     .box_prestige {
         position: static;
     }
@@ -203,7 +203,7 @@
     .box_evjf, 
     .box_classique, 
     .box_description, 
-    .box_entre_amies, 
+    .box_entre_amis, 
     .box_prestige {
         width: 90%;
         height: auto;
