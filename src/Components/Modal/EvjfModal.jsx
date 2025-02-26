@@ -2,10 +2,11 @@ import React from 'react';
 import '../../CSS/StyleEvjfModal.css';
 
 function EvjfModal({ isOpen, toggleModal }) {
-    if (!isOpen) return null
+    if (!isOpen) return null;
+    
     return <>
         <section className='modal-overlay'>
-            <div className='evjf-page evjf-modal-content' onClick={(e) => e.stopPropagation()}>
+            <div className='evjf-page evjf-modal-content'onClick={(e) => e.stopPropagation()}>
                 <div className="evjf-container">
                     <h2>Organisez un EVJF inoubliable ! 🎉</h2>
                     <p className="intro">
@@ -29,7 +30,7 @@ function EvjfModal({ isOpen, toggleModal }) {
                     <div className="section">
                         <h3>Détails pratiques</h3>
                         <p><span>📅 Durée :</span> Environ 2h30</p>
-                        <p><span>📍 Lieu :</span> En atelier privé</p>
+                        <p><span>📍 Lieu :</span>Sur place, En atelier privé</p>
                         <p><span>👩‍🍳 Nombre de participantes :</span> De 2 à 10 personnes</p>
                         <p><span>💰 Tarif :</span> À partir de 45€ par personne</p>
                     </div>

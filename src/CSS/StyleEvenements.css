@@ -48,6 +48,7 @@
     border-radius: 5px;
     padding: 10px;
     background-color: #f8e7ed41;
+    z-index: -1;
 }
 .box_classique::after{
     content: '';
@@ -58,7 +59,7 @@
     border-right: 1px solid var(--box_background);
     border-bottom-right-radius: 25px;
     width: 230px;
-    height: 160px;
+    height: 110px;
 }
 .box_description{
     position: relative;
@@ -103,6 +104,7 @@
     border-radius: 5px;
     padding: 10px;
     background-color: #f8e7ed41;
+    z-index: -1;
 }
 .box_prestige::before{
     content: '';
@@ -144,7 +146,7 @@
     .box_entre_amis::before,
     .box_prestige::before {
         width: 80%;
-    }    
+    }   
 }
 
 @media (max-width: 950px){
@@ -159,6 +161,9 @@
     }
     .box_description{
         left: 34%;
+    }
+    .box_evjf button{
+        margin-bottom: 3px;
     }
 }
 @media (max-width: 800px){

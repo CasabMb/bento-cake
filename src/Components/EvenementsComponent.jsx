@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import '../CSS/StyleEvenements.css'
 import EvjfModal from './Modal/EvjfModal';
 import EntreAmisModal from './Modal/EntreAmisModal';
+import AtelierClassiqueModal from './Modal/AtelierClassiqueModal';
+import PrestigeModal from './Modal/PrestigeModal';
 
 function EvenementsComponent() {
 
@@ -45,6 +47,8 @@ function EvenementsComponent() {
         </section>
             {modalOpen === 'evjf' && <EvjfModal isOpen={true} toggleModal={closeModal} />}
             {modalOpen === 'entre_amis' && <EntreAmisModal isOpen={true} toggleModal={closeModal} />}
+            {modalOpen === 'classique' && <AtelierClassiqueModal isOpen={true} toggleModal={closeModal} />}
+            {modalOpen === 'prestige' && <PrestigeModal isOpen={true} toggleModal={closeModal} />}
     </>
 }
 
