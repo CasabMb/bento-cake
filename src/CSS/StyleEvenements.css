@@ -124,7 +124,7 @@
     padding: 5px;
     font-family: Callingstone;
     font-weight: bold;
-	font-size: small;
+	font-size: medium;
     cursor: pointer;
 }
 .evenements button:hover{

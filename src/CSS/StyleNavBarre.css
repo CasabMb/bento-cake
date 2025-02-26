@@ -21,11 +21,11 @@
     display: flex;
     flex-direction: row;
     font-family: Lovan;
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
     gap: 5%;
     justify-content: center;
-    transform: translateY(60%);
+    transform: translateY(40%);
 }
 .nav_barre a{
     color: #e08d9f;
@@ -56,15 +56,22 @@
 }
 @media (max-width: 440px) {
     .nav_barre nav{
-        width: 260px;
+        width: 250px;
     }
     .img_logo{
         width: 70px;
         height: 70px;
     }
+    .nav_barre {
+        gap: 0%;
+    }
 }
 @media (max-width: 350px) {
     .nav_barre nav{
         width: 225px;
+    }
+    .nav_barre nav ul{
+        font-size: large;
+        transform: translateY(60%);
     }
 }

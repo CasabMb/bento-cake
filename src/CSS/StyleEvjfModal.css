@@ -101,3 +101,8 @@
     color: var(--text_color_1);
     font-size: x-large;
 }
+@media (max-width: 350px) {
+    .reservation p:nth-of-type(3){
+        font-size: 14px;
+    }
+}

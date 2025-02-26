@@ -124,6 +124,7 @@
     font-family: Callingstone;
     font-weight: bold;
     cursor: pointer;
+    font-size: large;
 }
 .card .content .title a:hover{
     box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.454);
@@ -159,7 +160,7 @@
 
 @media (max-width: 950px){
     .card .content .title a{
-        font-size: small;
+        font-size: medium;
     }
     .imgBox img{
         top: 25%;
@@ -186,6 +187,7 @@
 @media (max-width: 770px){
     .card .content .title a{
         left: 0%;
+        font-size: 16px;
     }
     .card .imgBox p{
         top: 60%;
@@ -195,7 +197,8 @@
     .card .content .title a{
         left: -2%;
         width: 80%;
-        padding: 5px ;
+        padding: 10px ;
+        /* font-size: 16px; */
     }
     .imgBox img{
         top: 25%;
@@ -227,7 +230,6 @@
     }
 }
 @media (max-width: 440px){
-
     .imgBox img{
         top: 37%;
         left: 45%;
@@ -249,11 +251,7 @@
         transform: translateY(100%);
     }
     .card .content .title a{
-        left: 20%;  
-        top: 100%; 
-        width: 150%;
         z-index: 2;
-        padding: 10px;
     }
 }
 
@@ -269,8 +267,9 @@
         top: 27%;
         font-size: 2.5em;
     }
-    .card .content .title a{ 
-        padding: 5px;
+    .card .content .title a{
+        left: -5%;
+        font-size: 14px;
     }
     .content-p-2{
         transform: translateY(50%);
