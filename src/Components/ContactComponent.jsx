@@ -14,8 +14,8 @@ function ContactComponent() {
                     <p>📍 12 Rue des Gourmands, 75012 Paris, France</p>
 
                     <p>  Contactez-nous</p>
-                    <p>📧 Email : contact@bentocakelover.com</p>
-                    <p>📱 Téléphone : +33 6 12 34 56 78</p>
+                    <p>📧 Email : <a href='mailto:contact@bentocake-event.com'>contact@bentocake-event.com</a></p>
+                    <p>📱 Téléphone : <a href='tel:+33612345678'>+33 6 12 34 56 78</a></p>
 
                     <p>  Nos horaires</p>
                     <p>🗓 Lundi - Vendredi : 9h00 - 18h00</p>
