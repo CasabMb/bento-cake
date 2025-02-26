@@ -1,5 +1,6 @@
-.entre-amis-container h2{
+.intro {
     text-align: center;
+    margin-top: 15px;
 }
 .modal-box, .modal-infos {
     background-color: var(--box_background);
