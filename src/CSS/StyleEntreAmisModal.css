@@ -40,3 +40,10 @@
 .modal-box p:first-of-type{
     margin-bottom: 10px;
 }
+.entre-amis ul {
+    list-style-type: none;
+    padding: 0;
+}
+.entre-amis ul li {
+    margin: 10px 0;
+}

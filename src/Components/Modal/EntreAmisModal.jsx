@@ -19,9 +19,11 @@ function EntreAmisModal({ isOpen, toggleModal }) {
                             <p>
                                 Durant cet atelier, vous apprendrez à confectionner un <span>bento cake</span> en suivant des étapes simples et ludiques. Cet atelier est ouvert à tous !
                             </p>
-                            <p><span>🎨 Décoration personnalisée :</span> Apprenez différentes techniques pour décorer vos bento cakes avec des couleurs, des motifs et des textures variés.</p>
-                            <p><span>👩‍🍳 Accompagnement pas à pas :</span> Un encadrement professionnel pour vous guider à chaque étape, que vous soyez débutant ou passionné de pâtisserie.</p>
-                            <p><span>🍰 Dégustation et partage :</span> Repartez avec votre création ou dégustez-la sur place dans une ambiance chaleureuse et détendue.</p>
+                            <ul>
+                                <li><span>🎨 Décoration personnalisée :</span> Apprenez différentes techniques pour décorer vos bento cakes avec des couleurs, des motifs et des textures variés.</li>
+                                <li><span>👩‍🍳 Accompagnement pas à pas :</span> Un encadrement professionnel pour vous guider à chaque étape, que vous soyez débutant ou passionné de pâtisserie.</li>
+                                <li><span>🍰 Dégustation et partage :</span> Repartez avec votre création ou dégustez-la sur place dans une ambiance chaleureuse et détendue.</li>
+                            </ul>
                         </div>
                         <div className="modal-infos">
                             <h3>Détails pratiques</h3>
