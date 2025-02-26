@@ -48,7 +48,6 @@
     border-radius: 5px;
     padding: 10px;
     background-color: #f8e7ed41;
-    z-index: -1;
 }
 .box_classique::after{
     content: '';
@@ -59,7 +58,7 @@
     border-right: 1px solid var(--box_background);
     border-bottom-right-radius: 25px;
     width: 230px;
-    height: 110px;
+    height: 80px;
 }
 .box_description{
     position: relative;
@@ -104,7 +103,6 @@
     border-radius: 5px;
     padding: 10px;
     background-color: #f8e7ed41;
-    z-index: -1;
 }
 .box_prestige::before{
     content: '';
@@ -115,7 +113,7 @@
     border-left: 1px solid var(--box_background);
     border-bottom-left-radius: 25px;
     width: 200px;
-    height: 120px;
+    height: 80px;
 }
 .evenements button{
     margin-top: 5px ;
