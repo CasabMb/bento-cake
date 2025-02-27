@@ -1,11 +1,17 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import cssnanoPlugin from 'cssnano'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import viteCompression from 'vite-plugin-compression';
+import cssnanoPlugin from 'cssnano';
+
 
 // https://vite.dev/config/
 export default defineConfig({
   base: '/bento-cake/',
-  plugins: [react()],
+  plugins: [
+    react(),
+    viteCompression({ algorithm: 'gzip' }), 
+    viteCompression({ algorithm: 'brotliCompress' })
+  ],
   server: {
     allowedHosts: ['.ngrok-free.app'] 
   },
@@ -13,10 +19,5 @@ export default defineConfig({
     postcss: {
       plugins: [cssnanoPlugin({ preset: 'default' })],
     },
-  },
-  plugins: [
-    react(),
-    viteCompression({ algorithm: 'gzip' }), 
-    viteCompression({ algorithm: 'brotliCompress' })
-  ],
-})
+  }
+});
