@@ -13,7 +13,7 @@ export default defineConfig({
     viteCompression({ algorithm: 'brotliCompress' })
   ],
   server: {
-    allowedHosts: ['.ngrok-free.app'] 
+    allowedHosts: ['.ngrok-free.app']
   },
   css: {
     postcss: {
