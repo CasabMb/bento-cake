@@ -16,7 +16,7 @@ function HeroComponent() {
                     <h1 data-aos="fade-right" data-aos-duration="1400">La dolce Bento Cake Atelier</h1>
                     <p>Décorez votre propre bento cake sous la guidance d'un chef pâtissier expérimenté, dans une ambiance conviviale.</p>
                     <div className='imgBox-img'>
-                        <img src={cake_fraise} alt="bento cake avec des morceaux de fraises fraiches" />
+                        <img src={cake_fraise} alt="bento cake avec des morceaux de fraises fraiches" loading="lazy" />
                     </div>
                 </div>
                 <div className='content'>

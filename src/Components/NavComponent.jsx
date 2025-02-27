@@ -6,7 +6,7 @@ function NavComponent() {
     return <>
         <div className='nav_barre'>
             <div className='img_logo'>
-                <img src={logo} alt="logo de l'enseigne" />
+                <img src={logo} alt="logo de l'enseigne" loading="lazy" />
             </div>
             <nav>
                 <ul>

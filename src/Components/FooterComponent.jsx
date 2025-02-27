@@ -20,13 +20,13 @@ function FooterComponent() {
             <div className="footer-divider"></div>
             <div className="reseaux" data-aos="fade-right" data-aos-duration="900" data-aos-offset="100" data-aos-easing="ease-in-sine">
                 <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                    <img src={instagram} alt="logo instagram" />
+                    <img src={instagram} alt="logo instagram" loading="lazy" />
                 </a>
                 <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-                    <img src={facebook} alt="logo facebook" />
+                    <img src={facebook} alt="logo facebook" loading="lazy" />
                 </a>
                 <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-                    <img src={twitter} alt="logo twitter" />
+                    <img src={twitter} alt="logo twitter" loading="lazy" />
                 </a>
             </div>
         </footer>

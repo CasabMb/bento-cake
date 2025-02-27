@@ -58,7 +58,7 @@
     border-right: 1px solid var(--box_background);
     border-bottom-right-radius: 25px;
     width: 230px;
-    height: 80px;
+    height: 130px;
 }
 .box_description{
     position: relative;
@@ -70,6 +70,7 @@
     text-align: center;
     padding: 10px;
     border-radius: 10px;
+    z-index: 5;
 }
 .box_entre_amis{
     position: relative;
@@ -91,7 +92,7 @@
     border-left: 1px solid var(--box_background);
     border-top-left-radius: 25px;
     width: 230px;
-    height: 130px;
+    height: 140px;
 }
 .box_prestige{
     position: relative;
@@ -113,7 +114,7 @@
     border-left: 1px solid var(--box_background);
     border-bottom-left-radius: 25px;
     width: 200px;
-    height: 80px;
+    height: 100px;
 }
 .evenements button{
     margin-top: 5px ;

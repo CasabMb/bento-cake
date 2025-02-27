@@ -14,13 +14,13 @@ function RealisationClientsComponent() {
         <section className='realisations'>
             <p>Les réalisations de nos clients</p>
             <div className="grid-container">
-                <div className="grid-item img1" data-aos="fade-right" data-aos-duration="1400"><img src={img1} alt="Image 1" /></div>
-                <div className="grid-item img2" data-aos="fade-right" data-aos-duration="1400"><img src={img3} alt="Image 3" /></div>
-                <div className="grid-item img3" data-aos="fade-left" data-aos-duration="1400"><img src={img2} alt="Image 2" /></div>
-                <div className="grid-item img4" data-aos="fade-right" data-aos-duration="1400"><img src={img7} alt="Image 7" /></div>
-                <div className="grid-item img5" data-aos="fade-left" data-aos-duration="1400"><img src={img4} alt="Image 4" /></div>
-                <div className="grid-item img6" data-aos="fade-left" data-aos-duration="1400"><img src={img5} alt="Image 5" /></div>
-                <div className="grid-item img7" data-aos="fade-left" data-aos-duration="1400"><img src={img6} alt="Image 6" /></div>
+                <div className="grid-item img1" data-aos="fade-right" data-aos-duration="1400"><img src={img1} alt="Image 1" loading="lazy" /></div>
+                <div className="grid-item img2" data-aos="fade-right" data-aos-duration="1400"><img src={img3} alt="Image 3" loading="lazy" /></div>
+                <div className="grid-item img3" data-aos="fade-left" data-aos-duration="1400"><img src={img2} alt="Image 2" loading="lazy" /></div>
+                <div className="grid-item img4" data-aos="fade-right" data-aos-duration="1400"><img src={img7} alt="Image 7" loading="lazy" /></div>
+                <div className="grid-item img5" data-aos="fade-left" data-aos-duration="1400"><img src={img4} alt="Image 4" loading="lazy" /></div>
+                <div className="grid-item img6" data-aos="fade-left" data-aos-duration="1400"><img src={img5} alt="Image 5" loading="lazy" /></div>
+                <div className="grid-item img7" data-aos="fade-left" data-aos-duration="1400"><img src={img6} alt="Image 6" loading="lazy" /></div>
             </div>
         </section>
     </>;
