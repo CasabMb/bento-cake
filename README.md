@@ -32,7 +32,11 @@ Il offre une **expérience utilisateur agréable** grâce à des **transitions d
 
 <img src="https://github.com/user-attachments/assets/3b13820e-0b38-4022-820f-1fbce50d50d1" alt="Bento Cake" width="1000"/>
 
+---
 
+## 🌐 Découverte du site
+
+[Sweet La Dolce Bento Cake - Site vitrine](https://casabmb.github.io/bento-cake/) 🚀
 
 ---
 
