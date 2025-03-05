@@ -34,9 +34,9 @@ Il offre une **expérience utilisateur agréable** grâce à des **transitions d
 
 ---
 
-## 🌐 Découverte du site
+# 🌐 Découvrez le site
 
-[Sweet La Dolce Bento Cake - Site vitrine](https://casabmb.github.io/bento-cake/) 🚀
+[La Dolce Bento Cake - Site vitrine](https://casabmb.github.io/bento-cake/) 🚀
 
 ---
 
