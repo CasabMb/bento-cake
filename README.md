@@ -30,7 +30,10 @@ Il offre une **expérience utilisateur agréable** grâce à des **transitions d
 
 ## 📸 Aperçu  
 
-<img src="https://github.com/user-attachments/assets/3b13820e-0b38-4022-820f-1fbce50d50d1" alt="Bento Cake" width="700"/>  
+<img src="https://github.com/user-attachments/assets/3b13820e-0b38-4022-820f-1fbce50d50d1" alt="Bento Cake" width="900"/>
+<img src="https://github.com/user-attachments/assets/a6773bb4-66bd-44fd-92b1-6c41569862c9" alt="Bento Cake" width="900"/>
+
+
 
 ---
 
