@@ -14,8 +14,7 @@ Il offre une **expérience utilisateur agréable** grâce à des **transitions d
 
 ✔️ **Interface moderne et responsive** 📱💻  
 ✔️ **Animations fluides** grâce à AOS  
-✔️ **Carte interactive** avec Google Maps  
-✔️ **Performances optimisées** avec Vite  
+✔️ **Carte interactive** avec Google Maps   
 
 ---
 
@@ -23,8 +22,13 @@ Il offre une **expérience utilisateur agréable** grâce à des **transitions d
 
 🔹 **Frontend** : React + Vite  
 🔹 **Animations** : AOS (Animate On Scroll)  
-🔹 **Icônes** : RemixIcon  
 🔹 **Carte intégrée** : Google Maps Embed  
+
+---
+
+# 🌐 Découvrez le site
+
+[La Dolce Bento Cake - Site vitrine](https://casabmb.github.io/bento-cake/) 🚀
 
 ---
 
@@ -34,9 +38,10 @@ Il offre une **expérience utilisateur agréable** grâce à des **transitions d
 
 ---
 
-# 🌐 Découvrez le site
-
-[La Dolce Bento Cake - Site vitrine](https://casabmb.github.io/bento-cake/) 🚀
+## 📌 Optimisations & Performances
+🔹 Images converties en WebP pour un chargement plus rapide et une meilleure compression 📷🚀
+🔹 Code minifié pour améliorer les performances
+🔹 Chargement rapide grâce à Vite
 
 ---
 
