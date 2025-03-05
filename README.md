@@ -1,25 +1,40 @@
-##🍰 La Dolce Bento Cake<br>
-Un site vitrine élégant et réactif pour découvrir l'univers du Bento Cakes !<br>
+# 🍰 La Dolce Bento Cake  
 
-###🌟 Description<br>
-La Dolce Bento Cake est un site vitrine conçu pour présenter un atelier de gâteaux Bento, avec une interface fluide et animée. Il offre une expérience utilisateur agréable grâce à des transitions dynamiques et un design soigné.
+Un site vitrine élégant et réactif pour découvrir l'univers du Bento Cakes !  
 
-###🚀 Fonctionnalités
-✔️ Interface moderne et responsive 📱💻<br>
-✔️ Animations fluides grâce à AOS<br>
-✔️ Carte interactive avec Google Maps<br>
-✔️ Performances optimisées avec Vite<br>
+---
 
-###🛠️ Stack Technique
-Frontend : React + Vite<br>
-Animations : AOS (Animate On Scroll)<br>
-Icônes : RemixIcon<br>
-Carte intégrée : Google Maps Embed<br>
+## 🌟 Description  
+La Dolce Bento Cake est un **site vitrine** conçu pour présenter un **atelier de gâteaux Bento**, avec une interface fluide et animée.  
+Il offre une **expérience utilisateur agréable** grâce à des **transitions dynamiques** et un **design soigné**.  
 
-###📸 Aperçu
-<img src="https://github.com/user-attachments/assets/3b13820e-0b38-4022-820f-1fbce50d50d1" alt="Bento Cake" width="700"/>
+---
 
+## 🚀 Fonctionnalités  
 
-###📌 Améliorations Futures
-🔹 Optimisation SEO
-🔹 Formulaire de contact avec gestion des messages ✉️
+✔️ **Interface moderne et responsive** 📱💻  
+✔️ **Animations fluides** grâce à AOS  
+✔️ **Carte interactive** avec Google Maps  
+✔️ **Performances optimisées** avec Vite  
+
+---
+
+## 🛠️ Stack Technique  
+
+🔹 **Frontend** : React + Vite  
+🔹 **Animations** : AOS (Animate On Scroll)  
+🔹 **Icônes** : RemixIcon  
+🔹 **Carte intégrée** : Google Maps Embed  
+
+---
+
+## 📸 Aperçu  
+
+<img src="https://github.com/user-attachments/assets/3b13820e-0b38-4022-820f-1fbce50d50d1" alt="Bento Cake" width="700"/>  
+
+---
+
+## 📌 Améliorations Futures  
+
+🔹 **Optimisation SEO**  
+🔹 **Formulaire de contact avec gestion des messages** ✉️  
